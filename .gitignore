@@ -1,0 +1,61 @@
+# .gitignore 文件模板
+# 创建于: 2024-06-04
+# 最后更新于: 2024-06-04.
+# 作者：Microsoft Copilot, Yuuki
+# 这是一个通用的 .gitignore 文件模板，适用于多种操作系统、编程语言和编辑器。
+
+# 编译输出 (Compiled Output)
+######################
+*.o
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.class
+*.swp
+*.swo
+*.swn
+*.pyc
+*.pyo
+*.bak
+*.cache
+*.egg-info/
+dist/
+build/
+nsis.log
+*.nupkg
+
+# IDE / 编辑器文件 (IDE / Editor Files)
+######################
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.tmproj
+*.eclipse
+*.metadata
+*.settings/
+nbproject/
+
+# 操作系统文件 (Operating System Files)
+######################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 日志文件 (Log Files)
+######################
+*.log
+
+# 包管理器目录 （Package Manager Directories）
+######################
+node_modules/
+jspm_packages/
+bower_components/
+
+# 环境配置文件 (Environment Configuration Files)
+######################
+.env
