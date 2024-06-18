@@ -12,18 +12,11 @@ $ git clone "https://github.com/MoeruCybersec/Toolbox.git" "$HOME/hacking/toolbo
 
 ### 2. 添加环境变量 (可选)
 
-#### bash
+将以下内容添加到你的 shell 配置文件 (例如 `.zshrc`, `.bashrc`)
 
 ```bash
-$ echo 'export HBOX="$HOME/hacking/toolbox"' >> "$HOME/.bashrc"
-$ echo 'export PATH="$HBOX/link:$PATH"' >> "$HOME/.bashrc"
-```
-
-#### zsh
-
-```bash
-$ echo 'export HBOX="$HOME/hacking/toolbox"' >> "$HOME/.zshrc"
-$ echo 'export PATH="$HBOX/link:$PATH"' >> "$HOME/.zshrc"
+export HBOX="$HOME/hacking/toolbox"
+export PATH="$HBOX/link:$PATH"
 ```
 
 ### 3. 测试
