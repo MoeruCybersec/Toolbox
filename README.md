@@ -15,8 +15,8 @@ $ git clone "https://github.com/MoeruCybersec/Toolbox.git" "$HOME/hacking/toolbo
 将以下内容添加到你的 shell 配置文件 (例如 `.zshrc`, `.bashrc`)
 
 ```bash
-export HBOX="$HOME/hacking/toolbox"
-export PATH="$HBOX/link:$PATH"
+export HKTB="$HOME/hacking/toolbox"
+export PATH="$HKTB/link:$PATH"
 ```
 
 ### 3. 测试
